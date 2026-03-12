@@ -1,0 +1,89 @@
+{
+  "name": "وِجهة - عروض وكوبونات قطر",
+  "short_name": "وِجهة",
+  "description": "اكتشف أفضل العروض والكوبونات في دولة قطر",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080608",
+  "theme_color": "#8B1F24",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["shopping", "lifestyle", "business"],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "العروض",
+      "short_name": "العروض", 
+      "description": "تصفح أحدث العروض",
+      "url": "/?tab=deals",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "كوبوناتي",
+      "short_name": "كوبوناتي",
+      "description": "عرض كوبوناتي",
+      "url": "/?tab=coupons", 
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "التجار",
+      "short_name": "التجار",
+      "description": "دخول التجار",
+      "url": "/merchant/login",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=qa.wejha.app",
+      "id": "qa.wejha.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/wejha/id123456789"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
