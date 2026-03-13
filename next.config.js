@@ -1,17 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
+  images: {
+    unoptimized: true
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: {
-    domains: ['images.unsplash.com', 'lh3.googleusercontent.com'],
-  },
+  typescript: {
+    ignoreBuildErrors: true,
+  }
 }
 
 module.exports = nextConfig
